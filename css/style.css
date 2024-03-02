@@ -1,6 +1,12 @@
 /* global part */
 
-header {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+main {
     width: 90vw;
     margin: 0 auto
 }
@@ -23,48 +29,208 @@ body {
 
 /* var */
 :root {
-    /* --color-one: #131318; */
-    /* --color-two: #FF5400;
+    --color-one: #131318;
+    --color-two: #FF5400;
     --color-three: #424247;
     --color-four: #FFFFFF;
-    --color-five:  rgba(19, 19, 24, 0.50);;
+    --color-five: rgba(19, 19, 24, 0.50);
+    ;
     --font-mulish: "Mulish", sans-serif;
-    --bg-one: #FF5400 */
+    --bg-one: #FF5400
 }
 
-nav{display: flex;
-    justify-content:space-between;
-    align-items: center;
-
-}
-
-.logo{
+nav {
     display: flex;
-    justify-content:flex-start;
+    justify-content: space-between;
     align-items: center;
+
 }
-.menu{
+
+.logo {
     display: flex;
-    justify-content:flex-end;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--color-one);
+}
+
+.logo h3 span {
+    color: var(--color-two);
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
 }
 
-.menu>ul{
-    display: flex ;
+.menu>ul {
+    display: flex;
 }
-.menu>ul>li{
+
+.menu>ul>li {
     list-style-type: none;
     margin-left: 20px;
-}
-.menu he{
-    list-style-type: none;
-    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 400;
 }
 
-.menu .hameburg{
+
+.menu .hameburg {
     display: none;
 }
 
+
+/* banner part */
+.banner {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.293), rgba(0, 0, 0, 0.327)), url(/images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5% 5%;
+
+}
+
+
+.banner-content {
+    text-align: center;
+    padding: 5%;
+
+
+}
+
+.banner-content h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.banner-content p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 2% 0;
+
+}
+
+.button-group {
+    background-color: #ffffff60;
+    padding: 1% 0;
+    width: 55%;
+    margin: 0 auto;
+    border-radius: 5px;
+
+}
+
+.button-group button {
+    border-radius: 5px;
+    border: none;
+    min-width: 130px;
+    padding: 2%;
+    margin-bottom: 5px;
+    color: var(--color-five);
+
+}
+
+.button-group button i {
+    margin-left: 15px;
+}
+
+.button-group button .fa-magnifying-glass {
+    margin-right: 10px;
+}
+
+.button-group .orange-button {
+    background-color: var(--color-two);
+    color: var(--color-four);
+
+}
+
+/* popular tour section */
+
+.popular-tour {
+    display: flex;
+    gap: 5%;
+    padding: 5% 0%;
+}
+
+.popular-tour>.content,
+.popular-tour>.image  
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.popular-tour ul>li {
+    margin-left: 4%;
+    padding: 10px 0;
+
+}
+
+.popular-tour img {
+    width: 100%;
+
+
+}
+
+.popular-tour .content-wrapper h3
+
+{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.popular-tour .content-wrapper ul li,
+.popular-tour .content-wrapper p
+ {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+.popular-tour .content-wrapper  button{
+    background-color: var(--color-two);
+    padding: 10px 18px;
+    border-radius: 5px;
+    border: none;
+    color: var(--color-four);
+    margin-top: 10px;
+}
+
+
+/* destination section */
+
+.common-header{
+    width: 70%;
+    margin: 0 auto;
+}
+.common-header h3{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.common-header p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+
+}
 
 
 
@@ -73,7 +239,56 @@ nav{display: flex;
 
 @media only screen and (max-width: 600px) {
 
-   
+    /* nav part */
+    .menu .hameburg {
+        display: block;
+        font-size: 25px;
+    }
+
+    .menu>ul {
+        display: none;
+    }
+
+    /* banner part */
+    .button-group button {
+
+        min-width: 180px;
+        padding: 3% 0;
+        margin-bottom: 7px;
+        color: var(--color-five);
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 5px;
+        margin: 0 auto;
+        border: 1px solid var(--color-five);
+
+    }
+
+    .button-group {
+        background-color: #ffffff60;
+        width: 70%;
+        margin: 0 auto;
+        border-radius: 5px;
+        padding: 1%;
+
+    }
+
+    /* popular section */
+
+    .popular-tour  {
+        flex-direction: column;
+    }
+
+    .popular-tour .content,
+    .popular-tour .image
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+  
+
+
 
 
 
