@@ -232,6 +232,51 @@ nav {
 
 }
 
+.destination-images img{
+width: 100%;
+height: 100%;
+}
+
+
+.destination-images{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+
+    /* grid-template-rows: 50px auto 50px; */
+    grid-template-areas: 
+    
+
+"ma ma ma ma ma ma in in in in in in "
+"sr sr sr sr na na na na na ka ka ka "
+"ba ba ba ba be be be be be be be be "
+
+}
+
+.maldives{
+    grid-area: ma;
+}
+.indonesia{
+    grid-area: in;
+}
+.srilanka{
+    grid-area: sr;
+}
+.north-america{
+    grid-area: na;
+}
+.kashmir{
+    grid-area: ka;
+}
+.bangladesh{
+    grid-area: ba;
+}
+.bendarbon{
+    grid-area: be;
+}
+
+
 
 
 
