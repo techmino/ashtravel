@@ -159,8 +159,7 @@ nav {
 }
 
 .popular-tour>.content,
-.popular-tour>.image  
-{
+.popular-tour>.image {
     width: 50%;
     display: flex;
     align-items: center;
@@ -180,9 +179,7 @@ nav {
 
 }
 
-.popular-tour .content-wrapper h3
-
-{
+.popular-tour .content-wrapper h3 {
     color: #131318;
     font-size: 40px;
     font-weight: 800;
@@ -190,8 +187,7 @@ nav {
 }
 
 .popular-tour .content-wrapper ul li,
-.popular-tour .content-wrapper p
- {
+.popular-tour .content-wrapper p {
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
@@ -199,7 +195,7 @@ nav {
 
 }
 
-.popular-tour .content-wrapper  button{
+.popular-tour .content-wrapper button {
     background-color: var(--color-two);
     padding: 10px 18px;
     border-radius: 5px;
@@ -211,11 +207,12 @@ nav {
 
 /* destination section */
 
-.common-header{
+.common-header {
     width: 70%;
     margin: 0 auto;
 }
-.common-header h3{
+
+.common-header h3 {
     color: #131318;
     font-size: 40px;
     font-weight: 800;
@@ -224,7 +221,7 @@ nav {
 
 }
 
-.common-header p{
+.common-header p {
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     font-weight: 400;
@@ -233,13 +230,13 @@ nav {
 
 }
 
-.destination-images img{
-width: 100%;
-height: 100%;
+.destination-images img {
+    width: 100%;
+    height: 100%;
 }
 
 
-.destination-images{
+.destination-images {
     margin-top: 2rem;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -247,46 +244,52 @@ height: 100%;
     grid-column-gap: 5px;
 
     /* grid-template-rows: 50px auto 50px; */
-    grid-template-areas: 
-    
+    grid-template-areas:
 
-"ma ma ma ma ma ma in in in in in in "
-"sr sr sr sr na na na na na ka ka ka "
-"ba ba ba ba be be be be be be be be "
+
+        "ma ma ma ma ma ma in in in in in in "
+        "sr sr sr sr na na na na na ka ka ka "
+        "ba ba ba ba be be be be be be be be "
 
 }
 
-.maldives{
+.maldives {
     grid-area: ma;
 }
-.indonesia{
+
+.indonesia {
     grid-area: in;
 }
-.srilanka{
+
+.srilanka {
     grid-area: sr;
 }
-.north-america{
+
+.north-america {
     grid-area: na;
 }
-.kashmir{
+
+.kashmir {
     grid-area: ka;
 }
-.bangladesh{
+
+.bangladesh {
     grid-area: ba;
 }
-.bendarbon{
+
+.bendarbon {
     grid-area: be;
 }
 
-.destination-images>div h1{
+.destination-images>div h1 {
     color: var(--color-four)
-    
 }
-.destination-images>div{
+
+.destination-images>div {
     position: relative;
 }
 
-.destination-images>div> .country{
+.destination-images>div>.country {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -297,7 +300,7 @@ height: 100%;
 
 /* Choose us section */
 
-.choose-us-content{
+.choose-us-content {
     margin-top: 2rem;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -305,54 +308,59 @@ height: 100%;
     grid-column-gap: 20px;
 
     /* grid-template-rows: 50px auto 50px; */
-    grid-template-areas: 
-    
+    grid-template-areas:
 
-"ha ha ha ha ha ha wo wo wo wo wo wo "
-"na na na pr pr pr pr pr pr ka ka ka "
+
+        "ha ha ha ha ha ha wo wo wo wo wo wo "
+        "na na na pr pr pr pr pr pr ka ka ka "
 
 }
 
-.handpicked{
+.handpicked {
     grid-area: ha;
 }
-.world{
+
+.world {
     grid-area: wo;
 }
-.price{
+
+.price {
     grid-area: pr;
 }
 
-.inner-choose h3{
+.inner-choose h3 {
     font-size: 1.5rem;
     font-weight: 800;
     color: #131318;
     margin: 2% 0;
 }
-.inner-choose p{
+
+.inner-choose p {
     font-size: 1rem;
     font-weight: 400;
     color: #5A5A5D;
 }
 
-.inner-choose{
+.inner-choose {
     padding: 3%;
 }
 
 
-.bg-1{
+.bg-1 {
     background-color: #fbb46319;
 }
-.bg-2{
+
+.bg-2 {
     background-color: #29cdf620;
 }
-.bg-3{
+
+.bg-3 {
     background-color: #e944441f;
 }
 
 /* discount section */
 
-.discount-content{
+.discount-content {
     background-image: url(/images/discount-1.png);
     padding: 4%;
     background-repeat: no repeat;
@@ -364,42 +372,46 @@ height: 100%;
     margin-bottom: 5px;
 }
 
-.dicount-card{
+.dicount-card {
     width: 50%;
-    background-color:#ffffffd2;
+    background-color: #ffffffd2;
     padding: 3cqmax;
     border-radius: 5px;
 }
 
-.dicount-card i{
+.dicount-card i {
     color: #FF5400;
     margin-right: 4px;
 }
-.dicount-card span{
+
+.dicount-card span {
     margin-right: 1rem;
     font-size: 1rem;
     color: #5A5A5D;
 }
 
-.dicount-card h3{
+.dicount-card h3 {
     font-size: 1.5rem;
     color: #131318;
     margin: 10px 0;
 
 }
-.dicount-card p{
+
+.dicount-card p {
     font-size: 1rem;
     color: #5A5A5D;
     margin: 10px 0;
 
 }
-.dicount-card h4{
+
+.dicount-card h4 {
     font-size: 1.25rem;
     color: #FF5400;
     margin: 10px 0;
 
 }
-.dicount-card button{
+
+.dicount-card button {
     font-size: 1.25rem;
     color: #FFFFFF;
     margin: 10px 0;
@@ -407,23 +419,23 @@ height: 100%;
     padding: 5px 10px;
     border: 0;
     border-radius: 5px;
-    font-weight:800 ;
+    font-weight: 800;
 
 }
 
-.discount-content-1{
+.discount-content-1 {
     justify-content: flex-start;
     background-image: url(/images/discount-2.png);
 
 }
 
 /* newletter section */
-.newsletter{
+.newsletter {
     display: grid;
     grid-template-columns: 2fr 3fr;
 }
 
-.newsletter img{
+.newsletter img {
     width: 100%;
     height: 100%;
 }
@@ -431,15 +443,15 @@ height: 100%;
 
 
 
-.newletter-content{
-   
+.newletter-content {
+
     padding-right: 10px;
     display: flex;
     align-items: center;
 
 }
 
-.newletter-content input{
+.newletter-content input {
     width: 100%;
     height: 40px;
     margin-bottom: 20px;
@@ -448,7 +460,7 @@ height: 100%;
     border-radius: 5px;
 }
 
-.newletter-content input[type=button]{
+.newletter-content input[type=button] {
     background-color: orangered;
     color: #FFF;
 
@@ -458,51 +470,54 @@ height: 100%;
 
 
 
-.newletter-content h3{
-color: #131318;
-font-size: 24px;
-font-weight: 800;
+.newletter-content h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
 
 }
-.newletter-content p{
+
+.newletter-content p {
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px; 
+    line-height: 26px;
     margin: 10px 0;
 
 }
 
 
-.newletter-image{
-  position: relative;
-  
-    
-    }
-
-.newletter-image .save{
-width: 230px;
-height: 100px;
-background-color: #FF5400;
-position: absolute;
-bottom: 0;
-right: 0;
-transform: rotate(-45deg);
-transform-origin: 15% 15%;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
+.newletter-image {
+    position: relative;
 
 
 }
-.newletter-image .save p{
-color: #FFF;
-font-size: 1rem;
-font-weight: 400;
+
+.newletter-image .save {
+    width: 230px;
+    height: 100px;
+    background-color: #FF5400;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(-45deg);
+    transform-origin: 15% 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 
 }
-.newletter-image .save h3{
+
+.newletter-image .save p {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.newletter-image .save h3 {
     color: #FFF;
     font-size: 1.5rem;
     font-weight: 800;
@@ -511,7 +526,7 @@ font-weight: 400;
 
 
 /* footer section */
-footer{
+footer {
     margin: 0 auto;
     text-align: center;
     background-color: #1313180d;
@@ -519,24 +534,45 @@ footer{
     margin-top: 20px;
 }
 
-footer .logo{
-   display: flex;
-   justify-content: center;
-   margin: 20px 0;
+footer .logo {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
 }
 
-footer p{
+footer p {
     margin: 20px 0;
 
 }
 
-footer .social{
+footer .social {
     margin: 40px 0;
 
 }
-footer .social i{
+
+footer .social i {
     padding: 0 10px;
 
+}
+
+
+/* extra item */
+
+.parter{
+    padding: 20px 0;
+}
+.partner-logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.partner-logo{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 5px;
+}
+.partner-logo div{
+padding: 10px;
 }
 
 
@@ -590,107 +626,124 @@ footer .social i{
 
     /* popular section */
 
-    .popular-tour  {
+    .popular-tour {
         flex-direction: column;
     }
 
     .popular-tour .content,
-    .popular-tour .image
-    {
+    .popular-tour .image {
         width: 100%;
         margin-bottom: 10px;
     }
 
 
     /* detination */
-    .destination-images{
+    .destination-images {
         grid-template-columns: repeat(1, 1fr);
-    
-        /* grid-template-rows: 50px auto 50px; */
-        grid-template-areas: 
-        
-    
-    "ma  "
-    "in  "
-    "sr  "
-    "na "
-    "ka  "
-    "ba  "
-    "be  "
-  
 
-    
+        /* grid-template-rows: 50px auto 50px; */
+        grid-template-areas:
+
+
+            "ma  "
+            "in  "
+            "sr  "
+            "na "
+            "ka  "
+            "ba  "
+            "be  "
+
+
+
     }
-    
-    .maldives{
+
+    .maldives {
         grid-area: ma;
     }
-    .indonesia{
+
+    .indonesia {
         grid-area: in;
     }
-    .srilanka{
+
+    .srilanka {
         grid-area: sr;
     }
-    .north-america{
+
+    .north-america {
         grid-area: na;
     }
-    .kashmir{
+
+    .kashmir {
         grid-area: ka;
     }
-    .bangladesh{
+
+    .bangladesh {
         grid-area: ba;
     }
-    .bendarbon{
+
+    .bendarbon {
         grid-area: be;
     }
 
     /* choose-us */
-    .choose-us-content{
-      
+    .choose-us-content {
+
         grid-template-columns: repeat(1, 1fr);
-     
-    
+
+
         /* grid-template-rows: 50px auto 50px; */
-        grid-template-areas: 
-        
-    
-    "ha "
-    "wo "
-    "pr "
-    
-    }
-    
-    .handpicked{
-        grid-area: ha;
-    }
-    .world{
-        grid-area: wo;
-    }
-    .price{
-        grid-area: pr;
-    }
-  
-    /* discount */
-    .discount-content{
-        justify-content:center;
+        grid-template-areas:
+
+
+            "ha "
+            "wo "
+            "pr "
 
     }
-    .dicount-card{
+
+    .handpicked {
+        grid-area: ha;
+    }
+
+    .world {
+        grid-area: wo;
+    }
+
+    .price {
+        grid-area: pr;
+    }
+
+    /* discount */
+    .discount-content {
+        justify-content: center;
+
+    }
+
+    .dicount-card {
         width: 100%;
     }
 
     /* newsletter */
-    .newsletter{
+    .newsletter {
         display: grid;
         grid-template-columns: 1fr;
     }
 
-    .newletter-content{
+    .newletter-content {
         padding-right: 0px;
         margin-right: 0;
     }
-    .newsletter-content-inner{
-      width: 100%;
+
+    .newsletter-content-inner {
+        width: 100%;
+    }
+
+    .partner-logo{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer{
+        padding:  20px;
     }
 
 
