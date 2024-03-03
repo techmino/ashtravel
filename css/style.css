@@ -239,6 +239,7 @@ height: 100%;
 
 
 .destination-images{
+    margin-top: 2rem;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-row-gap: 5px;
@@ -275,6 +276,154 @@ height: 100%;
 .bendarbon{
     grid-area: be;
 }
+
+.destination-images>div h1{
+    color: var(--color-four)
+    
+}
+.destination-images>div{
+    position: relative;
+}
+
+.destination-images>div> .country{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/* Choose us section */
+
+.choose-us-content{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+
+    /* grid-template-rows: 50px auto 50px; */
+    grid-template-areas: 
+    
+
+"ha ha ha ha ha ha wo wo wo wo wo wo "
+"na na na pr pr pr pr pr pr ka ka ka "
+
+}
+
+.handpicked{
+    grid-area: ha;
+}
+.world{
+    grid-area: wo;
+}
+.price{
+    grid-area: pr;
+}
+
+.inner-choose h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #131318;
+    margin: 2% 0;
+}
+.inner-choose p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5A5A5D;
+}
+
+.inner-choose{
+    padding: 3%;
+}
+
+
+.bg-1{
+    background-color: #fbb46319;
+}
+.bg-2{
+    background-color: #29cdf620;
+}
+.bg-3{
+    background-color: #e944441f;
+}
+
+/* discount section */
+
+.discount-content{
+    background-image: url(/images/discount-1.png);
+    padding: 4%;
+    background-repeat: no repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.dicount-card{
+    width: 50%;
+    background-color:#ffffffd2;
+    padding: 3cqmax;
+    border-radius: 5px;
+}
+
+.dicount-card i{
+    color: #FF5400;
+    margin-right: 4px;
+}
+.dicount-card span{
+    margin-right: 1rem;
+    font-size: 1rem;
+    color: #5A5A5D;
+}
+
+.dicount-card h3{
+    font-size: 1.5rem;
+    color: #131318;
+    margin: 10px 0;
+
+}
+.dicount-card p{
+    font-size: 1rem;
+    color: #5A5A5D;
+    margin: 10px 0;
+
+}
+.dicount-card h4{
+    font-size: 1.25rem;
+    color: #FF5400;
+    margin: 10px 0;
+
+}
+.dicount-card button{
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    margin: 10px 0;
+    background-color: #FF5400;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 5px;
+    font-weight:800 ;
+
+}
+
+.discount-content-1{
+    justify-content: flex-start;
+    background-image: url(/images/discount-2.png);
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -331,7 +480,83 @@ height: 100%;
         margin-bottom: 10px;
     }
 
+
+    /* detination */
+    .destination-images{
+        grid-template-columns: repeat(1, 1fr);
+    
+        /* grid-template-rows: 50px auto 50px; */
+        grid-template-areas: 
+        
+    
+    "ma  "
+    "in  "
+    "sr  "
+    "na "
+    "ka  "
+    "ba  "
+    "be  "
   
+
+    
+    }
+    
+    .maldives{
+        grid-area: ma;
+    }
+    .indonesia{
+        grid-area: in;
+    }
+    .srilanka{
+        grid-area: sr;
+    }
+    .north-america{
+        grid-area: na;
+    }
+    .kashmir{
+        grid-area: ka;
+    }
+    .bangladesh{
+        grid-area: ba;
+    }
+    .bendarbon{
+        grid-area: be;
+    }
+
+    /* choose-us */
+    .choose-us-content{
+      
+        grid-template-columns: repeat(1, 1fr);
+     
+    
+        /* grid-template-rows: 50px auto 50px; */
+        grid-template-areas: 
+        
+    
+    "ha "
+    "wo "
+    "pr "
+    
+    }
+    
+    .handpicked{
+        grid-area: ha;
+    }
+    .world{
+        grid-area: wo;
+    }
+    .price{
+        grid-area: pr;
+    }
+  
+    /* discount */
+    .discount-content{
+        justify-content:center;
+
+    }
+    .dicount-card{
+        width: 100%;
+    }
 
 
 
