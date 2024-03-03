@@ -89,7 +89,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 5% 5%;
+    padding: 5% 5% 10%;
 
 }
 
@@ -118,27 +118,29 @@ nav {
 }
 
 .button-group {
-    background-color: #ffffff60;
-    padding: 1% 0;
-    width: 55%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 4px;
+    width: 80%;
     margin: 0 auto;
-    border-radius: 5px;
+    background-color: #ffffff4a;
+    padding: 10px;
+   
 
 }
 
 .button-group button {
     border-radius: 5px;
     border: none;
-    min-width: 130px;
-    padding: 2%;
+    padding: 4%;
     margin-bottom: 5px;
     color: var(--color-five);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
-.button-group button i {
-    margin-left: 15px;
-}
 
 .button-group button .fa-magnifying-glass {
     margin-right: 10px;
@@ -603,25 +605,18 @@ padding: 10px;
     /* banner part */
     .button-group button {
 
-        min-width: 180px;
-        padding: 3% 0;
-        margin-bottom: 7px;
-        color: var(--color-five);
-        display: flex;
-        justify-content: space-between;
-        padding: 10px 5px;
-        margin: 0 auto;
-        border: 1px solid var(--color-five);
-
+        
     }
-
     .button-group {
-        background-color: #ffffff60;
-        width: 70%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 4px;
+        width: 90%;
         margin: 0 auto;
-        border-radius: 5px;
-        padding: 1%;
-
+        background-color: #ffffff4a;
+        padding: 10px;
+       
+    
     }
 
     /* popular section */
