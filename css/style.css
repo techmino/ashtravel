@@ -85,7 +85,7 @@ nav {
 
 /* banner part */
 .banner {
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.293), rgba(0, 0, 0, 0.327)), url(/images/banner.png);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.293), rgba(0, 0, 0, 0.327)), url(../images/banner.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -301,6 +301,9 @@ nav {
 
 
 /* Choose us section */
+.choose-us{
+    margin-top: 20px;
+}
 
 .choose-us-content {
     margin-top: 2rem;
@@ -361,6 +364,10 @@ nav {
 }
 
 /* discount section */
+
+.discount{
+    margin-top: 20px;
+}
 
 .discount-content {
     background-image: url(/images/discount-1.png);
